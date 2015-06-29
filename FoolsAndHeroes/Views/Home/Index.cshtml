@@ -1,0 +1,14 @@
+﻿<h1>Welcome</h1>
+<div>Welcome to the fools and heroes universal returns system. here you can manage your character and their returns, please select one of the following options.</div>
+<ul class="nav Mycharacter">
+    <li>@Html.ActionLink("My Character", "MyCharacter", "Home")</li>
+</ul>
+
+<ul class="nav Mycharacter">
+    <li>@Html.ActionLink("Create Character", "CreateCharacter", "Home")</li>
+</ul>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/Content/Scripts/MainPage.js")
+} 
